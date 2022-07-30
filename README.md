@@ -1,4 +1,5 @@
-<img width="1496" alt="스크린샷 2022-07-30 오후 1 53 41" src="https://user-images.githubusercontent.com/92352445/181875297-0143e21e-eced-4bea-ba5a-a66a11b944ba.png">
+<img width="1496" alt="181875297-0143e21e-eced-4bea-ba5a-a66a11b944ba" src="https://user-images.githubusercontent.com/98293871/181880391-d2575a09-9aec-422c-bf23-79ccc970c603.png">
+
 
 <div align="Right">
     진행 기간: 2022.06.13-2022.07.01
