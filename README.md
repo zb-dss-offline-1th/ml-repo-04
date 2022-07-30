@@ -57,7 +57,7 @@
 
 ## 1. 개요
 ### 1.1. 주제
-이 프로젝트는 human detection입니다.
+이 프로젝트는 real time human detection입니다.
 
 ### 1.2. 목적
 Target을 detection함으로써 target의 이동 경로 추적하는 것이 목적입니다.
@@ -86,7 +86,7 @@ Target을 detecting 하기 위해 널리 사용되고 있는 YOLOv5를 우선적
 다음은 이 프로젝트에서 사용한 학습 모델입니다. 
 
 - YOLOV5
-- Few Shot learning + GAN
+- Few Shot learning + GAN 이부분은 여기서 자세히 볼수 있습니다.(영문주의)[더보기](https://재서깃허브)
 
 ### 4.2. 모델: 내용
 <p align="Center">
@@ -100,15 +100,13 @@ YOLOv5는 object detection에서 널리 쓰이는 모델입니다. YOLOv5는 IoU
 <img width="700" alt="스크린샷 2022-07-30 오후 3 17 41" src="https://user-images.githubusercontent.com/92352445/181879654-8f607295-aea8-4ef2-94bb-ccc91b2b1f74.png">
 </p>
 
-Few Shot learning + GAN은 뭐머이다.
-
 ## 5. 본론: training and detecting
 
 ### 5.1. training and detecting: mAP
 <img width="1095" alt="스크린샷 2022-07-30 오후 3 17 41" src="https://user-images.githubusercontent.com/92352445/181877459-fcdb0f2f-c525-4977-8d26-6e71a1c2e1ad.png">
 
 - mAP가 높다 = 더 나은 detection 이 이루어지지 않았습니다.
-- mAP가 높으면 오히려 overfitting 되어 detection이 잘 되지 않습니다.
+- mAP가 높으면 오히려 overfitting 될 가능성이 높아지는 것을 확인 할 수 있습니다.
 - 따라서 mAP가 80% 밑으로 나오게끔 epoch를 조절했습니다.
 
 ## 6. 결론       
@@ -126,10 +124,9 @@ Few Shot learning + GAN은 뭐머이다.
 </div>
 </br>
 
-- 데이터를 많이 넣는다고 detecting 더 잘 되는건 아님
-- batch size는 클수록 좋음
-- transfer learning이 짱임
-- 
+- 데이터를 많이 넣는다고 detecting 더 잘 되는건 아닙니다.
+- batch size는 클수록 좋습니다.
+- transfer learning의 엄청난 성능 확인 할 수 있었습니다.
 
 
 ## 참고
