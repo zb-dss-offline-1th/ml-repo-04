@@ -75,7 +75,9 @@ Target을 detection함으로써 target의 이동 경로 추적하는 것이 목�
 - 동영상 속성은 1920*1080(FHD) 25fps runtime 5~10sec 입니다.
 
 ### 3.3. 데이터: 전처리
+<p align="Center">
 <img width="762" alt="스크린샷 2022-07-30 오후 4 11 04" src="https://user-images.githubusercontent.com/92352445/181879314-b4b21d45-265a-44d9-af66-8dd3b553731c.png">
+</p>
 yolov5s와 yolov5m의 input size가 640*640이므로 동영상을 640*640으로 reszie 시켰습니다.
 
 ## 4. 본론: 모델
