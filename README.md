@@ -45,9 +45,9 @@
     
     4.2. [모델: 내용](#42-모델-내용)
 
-5. [본론: training and detecting](#5-본론-training and detecting)
+5. [본론: training-and-detecting](#5-본론-training-and-detecting)
 
-    5.1. [training and detecting: mAP](#51-training and detecting-mAP)
+    5.1. [training-and-detecting: map](#51-training-and-detecting-map)
 
 6. [결론](#6-결론)
 
