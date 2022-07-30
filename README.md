@@ -87,7 +87,7 @@ Target을 detecting 하기 위해 널리 사용되고 있는 YOLOv5를 우선적
 다음은 이 프로젝트에서 사용한 학습 모델입니다. 
 
 - YOLOV5
-- Few Shot learning + GAN 이부분은 여기서 자세히 볼수 있습니다.(영문 주의)[더보기]([https://github.com/dsjgm921/FSL_Relationnet_custom_data)])
+- Few Shot learning + GAN 이부분은 여기서 자세히 볼수 있습니다.(영문 주의)[더보기]([https://github.com/dsjgm921/FSL_Relationnet_custom_data])
 
 ### 4.2. 모델: 내용
 <p align="Center">
